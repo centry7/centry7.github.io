@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.centrysports" version="0.0.1" name="Centry Sports" provider-name="centry">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.25.1"/>
+  <import addon="script.module.beautifulsoup4" version="4.8.2"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">A Sports and Live TV addon</summary>
+  <description lang="en_GB">A Sports and Live TV addon</description>
+  <disclaimer lang="en_GB">I do not host any of the videos</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
