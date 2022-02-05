@@ -281,7 +281,7 @@ def show_reddit_sports(event_id):
         if any(x in stream_link for x in
                ['hockeyweb', 'cyclingentertainment', 'pawastreams', 'givemevibes', 'ace7', 'techtricksng',
                 'weakstreams',
-                'techoreels', 'sportsnest', 'jmutech', 'uhdstreams', 'givemenbastreams', 'positech', 'papahd']):
+                'techoreels', 'sportsnest', 'jmutech', 'uhdstreams', 'givemenbastreams', 'poscitech', 'papahd']):
             title = f'[{resolution} @ {bitrate}] {channel}[{language}] ({streamer}) - {votes} votes'
             li = ListItem(title)
             li.setInfo('video', {'title': title, 'mediatype': 'video'})
